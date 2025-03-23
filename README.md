@@ -1,0 +1,2 @@
+# TableAndBottomViewSyncScrollDemo
+table底部输入框弹出时，跟随键盘滚动线性动画
