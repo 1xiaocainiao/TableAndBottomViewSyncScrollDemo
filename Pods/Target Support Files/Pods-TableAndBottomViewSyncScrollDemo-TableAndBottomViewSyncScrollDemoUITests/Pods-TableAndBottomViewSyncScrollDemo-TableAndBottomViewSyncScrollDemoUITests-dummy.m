@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests
+@end

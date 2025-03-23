@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12BBAB3F47E35D0343305B73 /* Pods_TableAndBottomViewSyncScrollDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC16EC737196E3024B100B9 /* Pods_TableAndBottomViewSyncScrollDemo.framework */; };
+		202A0D2E99620235989D71A6 /* Pods_TableAndBottomViewSyncScrollDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02636C27F625F23319C8419C /* Pods_TableAndBottomViewSyncScrollDemoTests.framework */; };
+		4EACAFFCBD800A6F67419A87 /* Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2E4E9ADC7775DD1859CBB /* Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1CF78DC2D8FFBC700E238E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CF78BD2D8FFBC600E238E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CF78C42D8FFBC600E238E9;
+			remoteInfo = TableAndBottomViewSyncScrollDemo;
+		};
+		E1CF78E62D8FFBC700E238E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CF78BD2D8FFBC600E238E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CF78C42D8FFBC600E238E9;
+			remoteInfo = TableAndBottomViewSyncScrollDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02636C27F625F23319C8419C /* Pods_TableAndBottomViewSyncScrollDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableAndBottomViewSyncScrollDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F0F2912C4D62CFBEEEA041 /* Pods-TableAndBottomViewSyncScrollDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableAndBottomViewSyncScrollDemo.debug.xcconfig"; path = "Target Support Files/Pods-TableAndBottomViewSyncScrollDemo/Pods-TableAndBottomViewSyncScrollDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		238201A68516ACE472F3B070 /* Pods-TableAndBottomViewSyncScrollDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableAndBottomViewSyncScrollDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TableAndBottomViewSyncScrollDemoTests/Pods-TableAndBottomViewSyncScrollDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CAAE658E98A327C365C5381 /* Pods-TableAndBottomViewSyncScrollDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableAndBottomViewSyncScrollDemo.release.xcconfig"; path = "Target Support Files/Pods-TableAndBottomViewSyncScrollDemo/Pods-TableAndBottomViewSyncScrollDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AAC16EC737196E3024B100B9 /* Pods_TableAndBottomViewSyncScrollDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableAndBottomViewSyncScrollDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF78C52D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableAndBottomViewSyncScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF78DB2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableAndBottomViewSyncScrollDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF78E52D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableAndBottomViewSyncScrollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E835D2259690FD8ED318FA /* Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2C2E4E9ADC7775DD1859CBB /* Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45E15D2D9D16BE565A5D11F /* Pods-TableAndBottomViewSyncScrollDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableAndBottomViewSyncScrollDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TableAndBottomViewSyncScrollDemoTests/Pods-TableAndBottomViewSyncScrollDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F73F1D95D1C529D4E2E240F0 /* Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E1CF78ED2D8FFBC700E238E9 /* Exceptions for "TableAndBottomViewSyncScrollDemo" folder in "TableAndBottomViewSyncScrollDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E1CF78C42D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E1CF78C72D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E1CF78ED2D8FFBC700E238E9 /* Exceptions for "TableAndBottomViewSyncScrollDemo" folder in "TableAndBottomViewSyncScrollDemo" target */,
+			);
+			path = TableAndBottomViewSyncScrollDemo;
+			sourceTree = "<group>";
+		};
+		E1CF78DE2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TableAndBottomViewSyncScrollDemoTests;
+			sourceTree = "<group>";
+		};
+		E1CF78E82D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TableAndBottomViewSyncScrollDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CF78C22D8FFBC600E238E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BBAB3F47E35D0343305B73 /* Pods_TableAndBottomViewSyncScrollDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF78D82D8FFBC700E238E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A0D2E99620235989D71A6 /* Pods_TableAndBottomViewSyncScrollDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF78E22D8FFBC700E238E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EACAFFCBD800A6F67419A87 /* Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF47C73A3282820A198BA3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F0F2912C4D62CFBEEEA041 /* Pods-TableAndBottomViewSyncScrollDemo.debug.xcconfig */,
+				7CAAE658E98A327C365C5381 /* Pods-TableAndBottomViewSyncScrollDemo.release.xcconfig */,
+				F73F1D95D1C529D4E2E240F0 /* Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.debug.xcconfig */,
+				E9E835D2259690FD8ED318FA /* Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.release.xcconfig */,
+				F45E15D2D9D16BE565A5D11F /* Pods-TableAndBottomViewSyncScrollDemoTests.debug.xcconfig */,
+				238201A68516ACE472F3B070 /* Pods-TableAndBottomViewSyncScrollDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EFBF6193A04554CEBAC26F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC16EC737196E3024B100B9 /* Pods_TableAndBottomViewSyncScrollDemo.framework */,
+				F2C2E4E9ADC7775DD1859CBB /* Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests.framework */,
+				02636C27F625F23319C8419C /* Pods_TableAndBottomViewSyncScrollDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CF78BC2D8FFBC600E238E9 = {
+			isa = PBXGroup;
+			children = (
+				E1CF78C72D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */,
+				E1CF78DE2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests */,
+				E1CF78E82D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests */,
+				E1CF78C62D8FFBC600E238E9 /* Products */,
+				3BF47C73A3282820A198BA3D /* Pods */,
+				9EFBF6193A04554CEBAC26F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CF78C62D8FFBC600E238E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF78C52D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo.app */,
+				E1CF78DB2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests.xctest */,
+				E1CF78E52D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CF78C42D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF78EE2D8FFBC700E238E9 /* Build configuration list for PBXNativeTarget "TableAndBottomViewSyncScrollDemo" */;
+			buildPhases = (
+				FB0D42A58AB907E1F78A85DE /* [CP] Check Pods Manifest.lock */,
+				E1CF78C12D8FFBC600E238E9 /* Sources */,
+				E1CF78C22D8FFBC600E238E9 /* Frameworks */,
+				E1CF78C32D8FFBC600E238E9 /* Resources */,
+				B0BF11FDF4A572D4D048FD82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E1CF78C72D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */,
+			);
+			name = TableAndBottomViewSyncScrollDemo;
+			productName = TableAndBottomViewSyncScrollDemo;
+			productReference = E1CF78C52D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CF78DA2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF78F32D8FFBC700E238E9 /* Build configuration list for PBXNativeTarget "TableAndBottomViewSyncScrollDemoTests" */;
+			buildPhases = (
+				8D681C503B073E0853B46647 /* [CP] Check Pods Manifest.lock */,
+				E1CF78D72D8FFBC700E238E9 /* Sources */,
+				E1CF78D82D8FFBC700E238E9 /* Frameworks */,
+				E1CF78D92D8FFBC700E238E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CF78DD2D8FFBC700E238E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CF78DE2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests */,
+			);
+			name = TableAndBottomViewSyncScrollDemoTests;
+			productName = TableAndBottomViewSyncScrollDemoTests;
+			productReference = E1CF78DB2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1CF78E42D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF78F62D8FFBC700E238E9 /* Build configuration list for PBXNativeTarget "TableAndBottomViewSyncScrollDemoUITests" */;
+			buildPhases = (
+				48E043C4B8A5B243C8112396 /* [CP] Check Pods Manifest.lock */,
+				E1CF78E12D8FFBC700E238E9 /* Sources */,
+				E1CF78E22D8FFBC700E238E9 /* Frameworks */,
+				E1CF78E32D8FFBC700E238E9 /* Resources */,
+				AA6BD1FCEDE328F2552179BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CF78E72D8FFBC700E238E9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CF78E82D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests */,
+			);
+			name = TableAndBottomViewSyncScrollDemoUITests;
+			productName = TableAndBottomViewSyncScrollDemoUITests;
+			productReference = E1CF78E52D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CF78BD2D8FFBC600E238E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E1CF78C42D8FFBC600E238E9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E1CF78DA2D8FFBC700E238E9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E1CF78C42D8FFBC600E238E9;
+					};
+					E1CF78E42D8FFBC700E238E9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E1CF78C42D8FFBC600E238E9;
+					};
+				};
+			};
+			buildConfigurationList = E1CF78C02D8FFBC600E238E9 /* Build configuration list for PBXProject "TableAndBottomViewSyncScrollDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CF78BC2D8FFBC600E238E9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E1CF78C62D8FFBC600E238E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CF78C42D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */,
+				E1CF78DA2D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoTests */,
+				E1CF78E42D8FFBC700E238E9 /* TableAndBottomViewSyncScrollDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CF78C32D8FFBC600E238E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF78D92D8FFBC700E238E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF78E32D8FFBC700E238E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E043C4B8A5B243C8112396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D681C503B073E0853B46647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableAndBottomViewSyncScrollDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6BD1FCEDE328F2552179BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests/Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BF11FDF4A572D4D048FD82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableAndBottomViewSyncScrollDemo/Pods-TableAndBottomViewSyncScrollDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableAndBottomViewSyncScrollDemo/Pods-TableAndBottomViewSyncScrollDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableAndBottomViewSyncScrollDemo/Pods-TableAndBottomViewSyncScrollDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0D42A58AB907E1F78A85DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableAndBottomViewSyncScrollDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CF78C12D8FFBC600E238E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF78D72D8FFBC700E238E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF78E12D8FFBC700E238E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CF78DD2D8FFBC700E238E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CF78C42D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */;
+			targetProxy = E1CF78DC2D8FFBC700E238E9 /* PBXContainerItemProxy */;
+		};
+		E1CF78E72D8FFBC700E238E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CF78C42D8FFBC600E238E9 /* TableAndBottomViewSyncScrollDemo */;
+			targetProxy = E1CF78E62D8FFBC700E238E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1CF78EF2D8FFBC700E238E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F0F2912C4D62CFBEEEA041 /* Pods-TableAndBottomViewSyncScrollDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableAndBottomViewSyncScrollDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableAndBottomViewSyncScrollDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CF78F02D8FFBC700E238E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAAE658E98A327C365C5381 /* Pods-TableAndBottomViewSyncScrollDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableAndBottomViewSyncScrollDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableAndBottomViewSyncScrollDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1CF78F12D8FFBC700E238E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1CF78F22D8FFBC700E238E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CF78F42D8FFBC700E238E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45E15D2D9D16BE565A5D11F /* Pods-TableAndBottomViewSyncScrollDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableAndBottomViewSyncScrollDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableAndBottomViewSyncScrollDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableAndBottomViewSyncScrollDemo";
+			};
+			name = Debug;
+		};
+		E1CF78F52D8FFBC700E238E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238201A68516ACE472F3B070 /* Pods-TableAndBottomViewSyncScrollDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableAndBottomViewSyncScrollDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableAndBottomViewSyncScrollDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableAndBottomViewSyncScrollDemo";
+			};
+			name = Release;
+		};
+		E1CF78F72D8FFBC700E238E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73F1D95D1C529D4E2E240F0 /* Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableAndBottomViewSyncScrollDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableAndBottomViewSyncScrollDemo;
+			};
+			name = Debug;
+		};
+		E1CF78F82D8FFBC700E238E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E835D2259690FD8ED318FA /* Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableAndBottomViewSyncScrollDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableAndBottomViewSyncScrollDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CF78C02D8FFBC600E238E9 /* Build configuration list for PBXProject "TableAndBottomViewSyncScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF78F12D8FFBC700E238E9 /* Debug */,
+				E1CF78F22D8FFBC700E238E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF78EE2D8FFBC700E238E9 /* Build configuration list for PBXNativeTarget "TableAndBottomViewSyncScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF78EF2D8FFBC700E238E9 /* Debug */,
+				E1CF78F02D8FFBC700E238E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF78F32D8FFBC700E238E9 /* Build configuration list for PBXNativeTarget "TableAndBottomViewSyncScrollDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF78F42D8FFBC700E238E9 /* Debug */,
+				E1CF78F52D8FFBC700E238E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF78F62D8FFBC700E238E9 /* Build configuration list for PBXNativeTarget "TableAndBottomViewSyncScrollDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF78F72D8FFBC700E238E9 /* Debug */,
+				E1CF78F82D8FFBC700E238E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CF78BD2D8FFBC600E238E9 /* Project object */;
+}

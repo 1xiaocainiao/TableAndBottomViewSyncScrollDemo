@@ -1,0 +1,6 @@
+framework module Pods_TableAndBottomViewSyncScrollDemo_TableAndBottomViewSyncScrollDemoUITests {
+  umbrella header "Pods-TableAndBottomViewSyncScrollDemo-TableAndBottomViewSyncScrollDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
